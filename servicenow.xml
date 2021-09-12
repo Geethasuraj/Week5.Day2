@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://dev89751.service-now.com/nav_to.do?uri=%2Fui_page.do%3Fsys_id%3D1f871d002fe230108e4cf7ecf699b604"></parameter>
+<parameter name="username" value="admin"></parameter>
+<parameter name="password" value="Akshara@01"></parameter>
+  <test thread-count="2" name="Test">
+    <classes>
+        <class name="week5.day1assignment.CreateIncident"/>
+        <class name="week5.day1assignment.UpdateExisting"/>
+        <class name="week5.day1assignment.AssignIncident"/>
+        <class name="week5.day1assignment.DeleteIncident"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
